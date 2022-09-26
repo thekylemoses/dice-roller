@@ -1,7 +1,7 @@
 var dice = {
     numSides: 6,
-    roll: function () {
-      var randNum = Math.floor(Math.random() * this.numSides) + 1;
+    roll:function () {
+      var randNum = Math.floor(Math.random()*this.numSides)+1;
       return randNum;
     }
   }
