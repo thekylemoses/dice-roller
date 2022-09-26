@@ -1,21 +1,17 @@
 var dice = {
-    sides: 6,
+    numSides: 6,
     roll: function () {
-      var randomNumber = Math.floor(Math.random() * this.sides) + 1;
-      return randomNumber;
+      var randNum = Math.floor(Math.random() * this.numSides) + 1;
+      return randNum;
     }
   }
   
-  
-  
-  //Prints dice roll to the page
-  
   function printNumber(number) {
-    var placeholder = document.getElementById('placeholder');
-    placeholder.innerHTML = number;
+    var theResult = document.getElementById('theResult');
+    theResult.innerHTML = number;
   }
   
-  var button = document.getElementById('button');
+  var button = document.getElementById('diceButton');
   
   button.onclick = function() {
     var result = dice.roll();
