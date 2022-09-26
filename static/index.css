@@ -2,7 +2,7 @@
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
   }
-  #diceButton {
+ Button {
     background-color: rgb(0, 0, 0);
     border: none;
     color: rgb(255, 255, 255);
