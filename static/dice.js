@@ -9,8 +9,8 @@ var dice = {
     var theResult = document.getElementById('theResult').autofocus;
     theResult.innerHTML = number;
   }
-  var Button = document.getElementById('Button');
-  Button.onclick = function() {
+  var button = document.getElementById('button');
+  button.onclick = function() {
     var result = dice.roll();
     printNumber(result);
   };
