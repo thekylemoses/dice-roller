@@ -6,7 +6,7 @@ var dice = {
     }
   }
   function printNumber(number) {
-    var theResult = document.getElementById('theResult');
+    var theResult = document.getElementById('theResult').autofocus;
     theResult.innerHTML = number;
   }
   var Button = document.getElementById('Button');

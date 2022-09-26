@@ -1,11 +1,11 @@
 Button{
     background-color: rgb(0, 0, 0);
     border: none;
+    border-radius: 6px;
     color: rgb(255, 255, 255);
     padding: 10px;
     text-transform: uppercase;
     width: 600px;
-    cursor: pointer
   }
 #theResult{
     height: 100px;
