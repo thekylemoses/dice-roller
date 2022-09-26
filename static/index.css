@@ -13,8 +13,8 @@ button{
     width: 100px;
     padding: 50px;
     margin: 50px auto;
-    border: 1px solid gray;
-    border-radius: 10px;  
+    border: 1px;
+    border-radius: 5x;  
     font-size:80px;
     text-align: center;
   }
