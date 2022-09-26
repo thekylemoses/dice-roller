@@ -5,14 +5,11 @@ var dice = {
       return randNum;
     }
   }
-  
   function printNumber(number) {
     var theResult = document.getElementById('theResult');
     theResult.innerHTML = number;
   }
-  
   var Button = document.getElementById('Button');
-  
   Button.onclick = function() {
     var result = dice.roll();
     printNumber(result);
