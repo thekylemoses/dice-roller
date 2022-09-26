@@ -11,9 +11,9 @@ var dice = {
     theResult.innerHTML = number;
   }
   
-  var button = document.getElementById('diceButton');
+  var rollButton = document.getElementById('rollButton');
   
-  button.onclick = function() {
+  rollButton.onclick = function() {
     var result = dice.roll();
     printNumber(result);
   };
