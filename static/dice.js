@@ -1,15 +1,22 @@
 var dice = {
-    numSides: 6,
-    roll:function () {
-      var randNum = Math.floor(Math.random()*this.numSides)+1;
-      return randNum;
+    sides: 6,
+    roll: function () {
+      var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+      return randomNumber;
     }
   }
+  
+  
+  
+  //Prints dice roll to the page
+  
   function printNumber(number) {
-    var theResult = document.getElementById('theResult').autofocus;
-    theResult.innerHTML = number;
+    var placeholder = document.getElementById('placeholder');
+    placeholder.innerHTML = number;
   }
+  
   var button = document.getElementById('button');
+  
   button.onclick = function() {
     var result = dice.roll();
     printNumber(result);
