@@ -28,7 +28,7 @@ var dice = {
   }
   var button = document.getElementById('button');
   button.onclick = function() {
-    var result = dice.roll();
+    var result = diceTwo.roll();
     printNumber(result);
   };
-  
+  S
